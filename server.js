@@ -14,7 +14,7 @@ const server=http.createServer((req,res)=>{
       path +='index.html';
       res.statusCode=200;
       break;
-    case '/about':
+    case '/aboutW':
       path +='about.html';
       res.statusCode=200;
       break;
