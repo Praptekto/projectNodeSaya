@@ -14,3 +14,19 @@ app.get('/about',(req,res)=>{
   //cara mengirim file
   res.sendFile('./views/about.html',{root: __dirname});
 });
+
+
+//redirect
+app.get('/about-me',(req,res)=>{
+  res.redirect('/about');
+});
+
+//404 not found
+//use ini mirip dengan defaulnya switch
+//HARUS TARUH BAWAH, KALO NGGAK MALAH KEEKSEKUSI DULUAN NTAR
+app.use((req,res)=>{
+ //res.sendFile('./views/404.html',{root: __dirname});
+ //VERSI 2
+ res.status(404).sendFile('./views/404.html',{root: __dirname});
+
+});
