@@ -1,0 +1,27 @@
+{
+  "name": "projectnode",
+  "version": "1.0.0",
+  "description": "ini deskripsi",
+  "main": "server.js",
+  "scripts": {
+    "test": "tes commendnya",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praptekto/projectNodeSaya.git"
+  },
+  "author": "prap",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Praptekto/projectNodeSaya/issues"
+  },
+  "homepage": "https://github.com/Praptekto/projectNodeSaya#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.11",
+    "morgan": "^1.10.0"
+  }
+}
