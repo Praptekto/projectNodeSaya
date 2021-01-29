@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "tes commendnya",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
